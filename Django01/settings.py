@@ -1,3 +1,4 @@
+#coding:utf-8
 """
 Django settings for Django01 project.
 
@@ -32,14 +33,13 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.auth',#身份验证系统。
+    'django.contrib.contenttypes',#内容类型框架。
+    'django.contrib.sessions',#session 框架。
+    'django.contrib.messages',#消息框架。
+    'django.contrib.staticfiles',# 静态文件管理框架。
     'Blog01.apps.Blog01Config',
 ]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
